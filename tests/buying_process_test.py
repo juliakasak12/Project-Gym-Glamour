@@ -1,4 +1,3 @@
-from time import sleep
 
 from tests.base_test import BaseTest
 from pages.search_results_page import SearchResultsPage
@@ -29,7 +28,6 @@ class BuyingProcessTest (BaseTest):
         self.product_page.change_color()
         # 5.Dodaj do koszyka
         self.product_page.add_to_card()
-        sleep(4)
         # 6.Przejdź do koszyka
         self.product_page.go_to_basket()
         # 7.Wybierz metodę dostawy
