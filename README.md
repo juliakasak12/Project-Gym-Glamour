@@ -7,7 +7,6 @@ This repository contains a set of simple automated tests written in **Python** u
 
 - **Python 3.10** 
 - **Selenium** 
-- **pytest**
 - **Page Object Model**
 
 
